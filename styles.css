@@ -1,0 +1,16 @@
+img {
+	width: 40%
+}	
+
+.nav {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.imageHolder {
+	text-align: center;
+	padding-top: 20px;
+	font-family: 'Orbitron', sans-serif;
+}	
+

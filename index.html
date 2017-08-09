@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="catDog" >
+	<head>
+		<title> Lab 14: Cat-Dog </title>
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">	
+    <link rel="stylesheet" href="styles.css">
+	</head>
+	<body >
+	<div class="container">
+	<div class="nav">
+	<nav> 
+	    <a href="#!/animal1">Who's the cutest? | </a>
+        <a href="#!/animal2">Who's the scurriest?</a>
+    </nav>    
+    </div>
+    <main>
+		<ng-view> </ng-view>
+	</main>	
+	</div>
+	</body>
+<script src="lib/angular.min.js"> </script>
+<script src="lib/angular-route.min.js"> </script>
+<script src="script.js"></script>
+<script src="controller.js"></script>
+</html>
